@@ -1,6 +1,8 @@
 # tutorApp
-Please make a copy of this document and then edit the copy to include a brief description of your Java project, and then upload it to Teams, in the Java channel, under the Files tab, in folder Mini-Project -> TeamN (N is your team number). 
-IMPORTANT: rename this file to indicate your team number, e.g., 
+
+## Please make a copy of this document and then edit the copy to include a brief description of your Java project, and then upload it to Teams, in the Java channel, under the Files tab, in folder Mini-Project -> TeamN (N is your team number).
+
+### IMPORTANT: rename this file to indicate your team number, e.g., 
 Java Project Description - Team1.docx 
 Jay will review your project description and approve. 
 Project presentations will take place beginning Thursday afternoon 6/25 and continue through Friday 6/26. 
