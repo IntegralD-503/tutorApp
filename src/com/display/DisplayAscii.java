@@ -53,7 +53,7 @@ public class DisplayAscii {
 
             if (os.contains("Windows"))
             {
-                Runtime.getRuntime().exec("cls");
+                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
             }
             else
             {
