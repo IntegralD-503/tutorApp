@@ -15,7 +15,7 @@ Team members:
  Danny, Hunter, Ousmane
  
 Team name and company name (fictitious) – these can be the same: 
- TutorMonsters aka “the dreamteam”
+FIGURE OUT TEAM NAME ASAP
  
 Project description: 
 tutorMonsterApp helps students connect with tutors with different backgrounds and subject specialties, eg. math, science, JAVA…?
@@ -28,7 +28,7 @@ Student receives questions from the TutorMonster
 The TutorMonster will either reward or punish you based on your correct/incorrect answers
 Student health points to keep track
 Win or lose the game based on health points 
- 
+
 Nice to have: 
 External storage system?
 Registering students/tutors  to storage
