@@ -2,6 +2,7 @@ package com.display;
 
 public class DisplayAscii {
     //Gameface
+    //scary game face
 
     public static void displayMonsterTutor() {
         System.out.println("           _......._\n" +
