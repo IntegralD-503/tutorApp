@@ -51,8 +51,6 @@ public class MonsterTutor {
             punish();
         }
 
-
-
     }
     public void getQuestions() {
         this.questions = QuestionBank.getQuestions(difficulty, topic);
@@ -60,7 +58,7 @@ public class MonsterTutor {
 
     public void getAnswer(String answer) {
 
-    }
+
     public void punish() {
         DisplayAscii.clearConsole();
         //DisplayAscii.displayMonsterTutor();

@@ -17,6 +17,7 @@ public class MonsterTutorClient {
 
         //monsterTutor.getQuestion();
 
+
         Scanner readin = new Scanner(System.in);
         DisplayAscii.displayBanner();
         System.out.println("Welcome to the MonsterTutor Application");
