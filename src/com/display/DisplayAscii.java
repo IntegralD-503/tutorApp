@@ -5,7 +5,6 @@ public class DisplayAscii {
 
     //dannys changes to code
 
-
     public static void displayMonsterTutor() {
         System.out.println("           _......._\n" +
                 "       .-'.'.'.'.'.'.`-.\n" +
