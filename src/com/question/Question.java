@@ -30,4 +30,12 @@ public class Question {
     public List<String> getAnswersOptions() {
         return answersOptions;
     }
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public String getAnswer() {
+        return answer;
+    }
 }

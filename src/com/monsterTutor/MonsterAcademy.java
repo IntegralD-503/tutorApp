@@ -21,7 +21,7 @@ public class MonsterAcademy {
         Scanner readin = new Scanner(System.in);
         String askQuestion = readin.nextLine();
         if (askQuestion.equals("yes")) {
-            monsterTutor.getQuestion();
+            monsterTutor.tutor();
         }
 
     }
