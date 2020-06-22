@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/question/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/question/QuestionBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tutorApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorApp.iml" afterDir="false" />
-=======
->>>>>>> bad3a4e238a72562133e3ccdb03706af8a804c17
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
     </list>

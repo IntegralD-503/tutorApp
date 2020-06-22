@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
-<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" afterDir="false" />
@@ -10,15 +9,11 @@
       <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/question/Question.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/question/QuestionBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tutorApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorApp.iml" afterDir="false" />
-=======
->>>>>>> bad3a4e238a72562133e3ccdb03706af8a804c17
+      <change beforePath="$PROJECT_DIR$/.idea/tutorApp.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,18 +47,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1101" y="317" key="FileChooserDialogImpl" timestamp="1592842186888">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="1677" y="452" key="FileChooserDialogImpl" timestamp="1592840874378">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1101" y="317" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1592842186888" />
     <state x="1677" y="452" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592840874378" />
-    <state x="507" y="210" key="NewModule_or_Project.wizard" timestamp="1592842198738">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="507" y="210" key="NewModule_or_Project.wizard/0.0.1680.1010@0.0.1680.1010" timestamp="1592842198738" />
-    <state x="548" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1592842081502">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="548" y="332" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592842081502" />
   </component>
 </project>
