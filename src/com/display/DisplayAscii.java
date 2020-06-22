@@ -1,8 +1,8 @@
 package com.display;
 
 public class DisplayAscii {
-    //Gameface
-    //scary game face
+    //Game face and creating my branch
+
 
     public static void displayMonsterTutor() {
         System.out.println("           _......._\n" +
@@ -26,4 +26,5 @@ public class DisplayAscii {
                 "         \\           .'\n" +
                 "          `-..___..-`");
     }
+
 }
