@@ -14,7 +14,5 @@ public class MonsterTutorClient {
 
         //monsterTutor.getQuestion();
         monsterAcademy.startTutorSession();
-
-
     }
 }

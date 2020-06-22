@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/question/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/question/QuestionBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tutorApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorApp.iml" afterDir="false" />
-=======
->>>>>>> bad3a4e238a72562133e3ccdb03706af8a804c17
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +24,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MonsterTutorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.monsterTutor.client.MonsterTutorClient" />
+      <module name="tutorApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monsterTutor.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MonsterTutorClient" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,6 +64,22 @@
     </state>
     <state x="1101" y="317" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1592842186888" />
     <state x="1677" y="452" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592840874378" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1592850442744">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592850442744" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1592850442741">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592850442741" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1592850442739">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592850442739" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1592850442743">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592850442743" />
     <state x="507" y="210" key="NewModule_or_Project.wizard" timestamp="1592842198738">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

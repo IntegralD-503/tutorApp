@@ -22,8 +22,8 @@ public class MonsterTutor {
         Question question = questionBank.getQuestion(difficulty, topic);
         System.out.println("Which of the following is correct?");
         question.getAnswersOptions().forEach(System.out::println);
-
     }
+
     public void punish() {
         DisplayAscii.displayMonsterTutor();
         System.out.println("Wrong answer");
