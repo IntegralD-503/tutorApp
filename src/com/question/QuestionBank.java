@@ -5,27 +5,35 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class QuestionBank {
-    Collection<Question> questions;
 
-    private List<Question> questionData = Arrays.asList(
-            new Question("easy", "Math", "What is 2 + 2",
-                    Arrays.asList("What is 5.","What is 4.","What is 7.", "What is 9."),
+    private static List<Question> questionData = Arrays.asList(
+            new Question("easy", "Math", "What is 2 + 2?",
+                    Arrays.asList("5","4","7", "9"),
                     "What is 4."),
 
-            new Question("hard", "Java", "What is 2 + 2",
-                 Arrays.asList("What is 5.","What is 4.","What is 7.", "What is 9."),
+            new Question("hard", "Java", "What is 2 + 2?",
+                 Arrays.asList("5","4","7", "9"),
                     "What is 4."),
 
-            new Question("medium", "Science", "What is 2 + 2",
-                    Arrays.asList("What is 5.","What is 4.","What is 7.", "What is 9."),
+            new Question("medium", "Science", "What is 2 + 2?",
+                    Arrays.asList("5","4","7", "9"),
                     "What is 4."));
 
-    public Question getQuestion(String difficulty, String topic) {
-        Question question = questionData.stream()
+
+
+    public static List<Question> getQuestions(String difficulty, String topic) {
+        List<Question> questions = getQuestionData().stream()
                 .filter(q -> q.getDifficulty().equals(difficulty))
                 .filter(q -> q.getTopic().equals(topic))
-                .collect(Collectors.toList()).get(0);
-        return question;
+                .collect(Collectors.toList());
+        // shuffle questions
+        Collections.shuffle(questions);
+        return questions;
+    }
+
+    public static List<Question> getQuestionData() {
+        List<Question> questions = Collections.unmodifiableList(questionData);
+        return questions;
     }
 
 
