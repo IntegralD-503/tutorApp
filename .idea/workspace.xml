@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,7 +49,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CSVtest">
+    <configuration name="CSVtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSVtest" />
+      <module name="tutorApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonsterTutorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.monsterTutor.client.MonsterTutorClient" />
       <module name="tutorApp" />
@@ -41,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CSVtest" />
         <item itemvalue="Application.MonsterTutorClient" />
       </list>
     </recent_temporary>
@@ -58,28 +98,55 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1101" y="317" key="FileChooserDialogImpl" timestamp="1592842186888">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="1101" y="317" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1592842186888" />
     <state x="1677" y="452" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592840874378" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1592850442744">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1592854441935">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592850442744" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1592850442741">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854441935" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1592854441932">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.0.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592850442741" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1592850442739">
+    <state width="1878" height="305" key="GridCell.Tab.0.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854441932" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1592854441931">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.0.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592850442739" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1592850442743">
+    <state width="1878" height="305" key="GridCell.Tab.0.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854441931" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1592854441934">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592850442743" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854441934" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1592853305846">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592853305846" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1592853305845">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592853305845" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1592853305844">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592853305844" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1592853305846">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592853305846" />
     <state x="507" y="210" key="NewModule_or_Project.wizard" timestamp="1592842198738">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
