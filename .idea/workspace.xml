@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e0f9542-54a8-44ad-8fdd-1aafb0d145ae" name="Default Changelist" comment="">
+    <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/question/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/question/QuestionBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tutorApp.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1dY0j9IE3ndA9qS1ptkuQ56aOEZ" />
+  <component name="ProjectId" id="1dgJUm21Q7ij5F2DpuycGVSksKV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,26 +31,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e0f9542-54a8-44ad-8fdd-1aafb0d145ae" name="Default Changelist" comment="" />
-      <created>1592586851394</created>
+      <changelist id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="" />
+      <created>1592840820471</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592586851394</updated>
+      <updated>1592840820471</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="160" key="SettingsEditor" timestamp="1592836309743">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1677" y="452" key="FileChooserDialogImpl" timestamp="1592840874378">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="390" y="160" key="SettingsEditor/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592836309743" />
-    <state x="-1339" y="175" key="SettingsEditor/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1592835254383" />
+    <state x="1677" y="452" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592840874378" />
   </component>
 </project>
