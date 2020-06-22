@@ -58,6 +58,7 @@ public class MonsterTutor {
 
     public void getAnswer(String answer) {
 
+    }
 
     public void punish() {
         DisplayAscii.clearConsole();

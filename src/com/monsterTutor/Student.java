@@ -16,9 +16,6 @@ public class Student {
         this.name = name;
     }
 
-    public int getHealth() {
-        return health;
-    }
   
     public void damageHealth(int damage) {
         this.health -= damage;
