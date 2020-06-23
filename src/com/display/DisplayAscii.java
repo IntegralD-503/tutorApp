@@ -13,15 +13,24 @@ public class DisplayAscii {
 
         public static void displayBanner() {
             clearConsole();
-            System.out.println("\n" +
+            String banner = "\n" +
                     "\n" +
-                    " _____       _                                   _            \n" +
-                    "/__   \\_   _| |_ ___  _ __ /\\/\\   ___  _ __  ___| |_ ___ _ __ \n" +
-                    "  / /\\/ | | | __/ _ \\| '__/    \\ / _ \\| '_ \\/ __| __/ _ \\ '__|\n" +
-                    " / /  | |_| | || (_) | | / /\\/\\ \\ (_) | | | \\__ \\ ||  __/ |   \n" +
-                    " \\/    \\__,_|\\__\\___/|_| \\/    \\/\\___/|_| |_|___/\\__\\___|_|   \n" +
+                    "                        _           _____       _             \n" +
+                    "  /\\/\\   ___  _ __  ___| |_ ___ _ _/__   \\_   _| |_ ___  _ __ \n" +
+                    " /    \\ / _ \\| '_ \\/ __| __/ _ \\ '__|/ /\\/ | | | __/ _ \\| '__|\n" +
+                    "/ /\\/\\ \\ (_) | | | \\__ \\ ||  __/ |  / /  | |_| | || (_) | |   \n" +
+                    "\\/    \\/\\___/|_| |_|___/\\__\\___|_|  \\/    \\__,_|\\__\\___/|_|   \n" +
                     "                                                              \n" +
-                    "\n");
+                    "\n";
+
+            for (int i = 0; i < banner.length(); i++) {
+                System.out.print(banner.charAt(i));
+                try {
+                    Thread.sleep(1);
+                } catch (InterruptedException e) {
+
+                }
+            }
         }
     public static void displayMonsterTutor() {
         String monsterTutor = "           _......._\n" +

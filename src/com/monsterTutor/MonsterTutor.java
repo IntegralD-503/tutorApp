@@ -37,7 +37,7 @@ public class MonsterTutor {
         }
     }
 
-    private void askQuestion() {
+    public void askQuestion() {
         Question q = questions.get(0);
         System.out.println("Here is a " + q.getDifficulty() + " question about "+q.getTopic());
         System.out.println(q.getQuestion()+"\n");
@@ -53,7 +53,7 @@ public class MonsterTutor {
 
     }
     public void getQuestions() {
-        this.questions = QuestionBank.getQuestions(difficulty, topic);
+        this.questions = QuestionBank.getQuestions(this.difficulty);
     }
 
     public void getAnswer(String answer) {
@@ -76,4 +76,13 @@ public class MonsterTutor {
         System.out.println("Tonight you will have a feast fit for the gods");
     }
 
+    public void printQuestions() {
+        for (Question q : questions) {
+            System.out.println(q);
+        }
+    }
+
+    public String getDifficulty() {
+        return difficulty;
+    }
 }

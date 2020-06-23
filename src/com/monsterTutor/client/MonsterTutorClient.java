@@ -4,6 +4,7 @@ import com.display.DisplayAscii;
 import com.monsterTutor.MonsterAcademy;
 import com.monsterTutor.MonsterTutor;
 import com.monsterTutor.Student;
+import com.question.QuestionBank;
 
 import java.util.Scanner;
 
@@ -38,6 +39,13 @@ public class MonsterTutorClient {
                     System.out.println("Please Enter a number 1-3");
             }
         }
+/*
+        Student studentGuy = new Student();
+        MonsterTutor tutor = new MonsterTutor("easy","math",studentGuy);
+        QuestionBank.printQuestions();
 
+        //tutor.printQuestions();
+        tutor.askQuestion();
+        //System.out.println(tutor.getDifficulty());*/
     }
 }

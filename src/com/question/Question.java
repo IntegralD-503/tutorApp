@@ -38,4 +38,15 @@ public class Question {
     public String getAnswer() {
         return answer;
     }
+
+    @Override
+    public String toString() {
+        return "Question{" +
+                "difficulty='" + difficulty + '\'' +
+                ", topic='" + topic + '\'' +
+                ", question='" + question + '\'' +
+                ", answersOptions=" + answersOptions +
+                ", answer='" + answer + '\'' +
+                '}';
+    }
 }
