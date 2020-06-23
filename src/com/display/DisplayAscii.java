@@ -12,6 +12,7 @@ public class DisplayAscii {
     }
 
         public static void displayBanner() {
+            clearConsole();
             System.out.println("\n" +
                     "\n" +
                     " _____       _                                   _            \n" +
@@ -23,7 +24,7 @@ public class DisplayAscii {
                     "\n");
         }
     public static void displayMonsterTutor() {
-        System.out.println("           _......._\n" +
+        String monsterTutor = "           _......._\n" +
                 "       .-'.'.'.'.'.'.`-.\n" +
                 "     .'.'.'.'.'.'.'.'.'.`.\n" +
                 "    /.'.'               '.\\\n" +
@@ -42,7 +43,17 @@ public class DisplayAscii {
                 "      \\       .....     |\n" +
                 "       `.  .'      `.  /\n" +
                 "         \\           .'\n" +
-                "          `-..___..-`");
+                "          `-..___..-`";
+
+        for (int i = 0; i < monsterTutor.length(); i++) {
+            System.out.print(monsterTutor.charAt(i));
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+
+            }
+        }
+        System.out.println();
     }
 
     public final static void clearConsole()
@@ -57,7 +68,7 @@ public class DisplayAscii {
             }
             else
             {
-                Runtime.getRuntime().exec("clear");
+                new ProcessBuilder("clear").inheritIO().start().waitFor();
             }
         }
         catch (final Exception e)
