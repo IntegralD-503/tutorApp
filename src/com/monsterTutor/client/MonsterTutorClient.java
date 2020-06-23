@@ -20,7 +20,7 @@ public class MonsterTutorClient {
 
 
         Scanner readin = new Scanner(System.in);
-        DisplayAscii.displayBanner();
+        DisplayAscii.welcomeScreen();
         System.out.println("Welcome to the MonsterTutor Application");
         boolean keepRunning = true;
         while (keepRunning) {

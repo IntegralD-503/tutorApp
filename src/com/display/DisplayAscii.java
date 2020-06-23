@@ -14,7 +14,7 @@ public class DisplayAscii {
         System.out.println("3 - Exit");
     }
 
-        public static void displayBanner() {
+        public static void welcomeScreen() {
             clearConsole();
             String banner = "\n" +
                     "\n" +
