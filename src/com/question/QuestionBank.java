@@ -8,8 +8,8 @@ public class QuestionBank {
 
     private static List<Question> questionData = Arrays.asList(
             new Question("easy", "Math", "What is 2 + 2?",
-                    Arrays.asList("5","4","7", "9"),
-                    "What is 4."),
+                    Arrays.asList("a. 5","b. 4","7", "9"),
+                    "b"),
 
             new Question("hard", "Java", "What is 2 + 2?",
                  Arrays.asList("5","4","7", "9"),

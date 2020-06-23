@@ -63,11 +63,13 @@ public class MonsterTutor {
     public void punish() {
         DisplayAscii.clearConsole();
         //DisplayAscii.displayMonsterTutor();
+        student.damageHealth(10);
         System.out.println("Wrong answer");
     }
 
     public void praise() {
         System.out.println("You live to see another round");
+        student.restoreHealth(10);
     }
 
     public void reward() {
