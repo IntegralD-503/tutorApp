@@ -21,8 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/CSVtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/CSVtest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/display/DisplayAscii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/display/DisplayAscii.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterTutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterTutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/client/MonsterTutorClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/client/MonsterTutorClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/question/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/question/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/question/QuestionBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/question/QuestionBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/test.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
