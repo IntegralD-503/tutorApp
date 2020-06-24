@@ -33,13 +33,13 @@ public class QuestionBank {
     }
 
     public static List<Question> readCSV() {
-        String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\data\\questions.csv";
-//        String csvFile = "data/questions.csv";
-        String line = "";
-        String cvsSplitBy = ",";
+//        String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\data\\questions.csv";
+        String csvFile = "data/questions.csv";
+//        String line = "";
+//        String cvsSplitBy = ",";
         List<Question> questions = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
+/*        try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
             while ((line = br.readLine()) != null) {
                 // use comma as separator
@@ -54,8 +54,8 @@ public class QuestionBank {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }
-/*        try {
+        }*/
+        try {
             Files.lines(Path.of("data", "questions.csv")).forEach(line -> {
                 String[] questionArray = line.split(",");
                 Question question = parseQuestionString(questionArray);
@@ -63,7 +63,7 @@ public class QuestionBank {
             });
         } catch (IOException e) {
             System.out.println("not working");
-        }*/
+        }
         //System.out.println(questions);
         return questions;
     }

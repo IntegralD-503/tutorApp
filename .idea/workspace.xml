@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/CSVtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/CSVtest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/CSVtest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/display/DisplayAscii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/display/DisplayAscii.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterTutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterTutor.class" afterDir="false" />
@@ -29,7 +37,10 @@
       <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/client/MonsterTutorClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/client/MonsterTutorClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/question/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/question/Question.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/question/QuestionBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/question/QuestionBank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/question/QuestionBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/QuestionBank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +59,7 @@
   </component>
   <component name="ProjectId" id="1dgJUm21Q7ij5F2DpuycGVSksKV" />
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -64,7 +76,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CSVtest">
+  <component name="RunManager" selected="Application.MonsterTutorClient">
     <configuration name="CSVtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CSVtest" />
       <module name="tutorApp" />
@@ -87,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CSVtest" />
         <item itemvalue="Application.MonsterTutorClient" />
+        <item itemvalue="Application.CSVtest" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +127,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1101" y="317" key="FileChooserDialogImpl" timestamp="1592842186888">
@@ -122,22 +135,26 @@
     </state>
     <state x="1101" y="317" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1592842186888" />
     <state x="1677" y="452" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592840874378" />
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1592854722321">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="2490" height="348" key="GridCell.Tab.0.bottom" timestamp="1593012255827">
+      <screen x="0" y="0" width="2533" height="1241" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722321" />
-    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1592854722167">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="2490" height="348" key="GridCell.Tab.0.bottom/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
+    <state width="2490" height="348" key="GridCell.Tab.0.center" timestamp="1593012255827">
+      <screen x="0" y="0" width="2533" height="1241" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722167" />
-    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1592854722166">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="2490" height="348" key="GridCell.Tab.0.center/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
+    <state width="2490" height="348" key="GridCell.Tab.0.left" timestamp="1593012255827">
+      <screen x="0" y="0" width="2533" height="1241" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722166" />
-    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1592854722320">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="2490" height="348" key="GridCell.Tab.0.left/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
+    <state width="2490" height="348" key="GridCell.Tab.0.right" timestamp="1593012255827">
+      <screen x="0" y="0" width="2533" height="1241" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722320" />
+    <state width="2490" height="348" key="GridCell.Tab.0.right/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
     <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1592853305846">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

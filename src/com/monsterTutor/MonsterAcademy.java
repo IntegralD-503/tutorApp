@@ -5,6 +5,8 @@ import com.question.Question;
 import com.question.QuestionBank;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -74,11 +76,20 @@ public class MonsterAcademy {
     }
     // Getters / Setters
     public void getStudents() {
-        String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\data\\students.csv";
-//        String csvFile = "data/questions.csv";
-        String line = "";
+        //String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\data\\students.csv";
+        //String csvFile = "data/students.csv";
+        //String line = "";
 
-        try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
+        try {
+            Files.lines(Path.of("data", "students.csv")).forEach(line -> {
+                String[] studentArray = line.split(",");
+                Student student = new Student(studentArray[0],Boolean.valueOf(studentArray[1]));
+                studentList.add(student);
+            });
+        } catch (IOException e) {
+            System.out.println("Error retrieving students from students.csv");
+        }
+       /* try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
             while ((line = br.readLine()) != null) {
                 // use comma as separator
                 String[] studentArray = line.split(",");
@@ -87,7 +98,7 @@ public class MonsterAcademy {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     public Student getStudent() {
