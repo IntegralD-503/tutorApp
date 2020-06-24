@@ -55,6 +55,9 @@ public class DisplayAscii {
         String victoryBanner = getAsciiArt("victoryBanner.txt");
         slowPrint(victory, victory.length());
         slowPrint(victoryBanner, victoryBanner.length());
+
+        System.out.println("\nPress Enter to return to main screen");
+        GetUserInput.getUserString();
     }
 
 

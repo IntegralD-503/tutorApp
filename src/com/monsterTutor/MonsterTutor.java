@@ -85,11 +85,7 @@ public class MonsterTutor {
         DisplayAscii.clearConsole();
         System.out.println("Hello I am your Monster Tutor");
         DisplayAscii.displayMonsterTutor();
-        System.out.println("Hit Enter when you are ready to begin");
-        String input = GetUserInput.getUserString();
-        if (input.equals("")) {
-            DisplayAscii.clearConsole();
-        }
+        System.out.println("What you you like to do?");
     }
 
     private void askQuestion(Question q) {
