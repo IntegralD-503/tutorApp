@@ -13,6 +13,7 @@ public class QuestionBank {
     private static List<Question> questionData = readCSV();
 
     public static List<Question> getQuestionData() {
+        shuffle();
         List<Question> questions = Collections.unmodifiableList(questionData);
         return questions;
     }
@@ -38,7 +39,7 @@ public class QuestionBank {
     }
 
     private static Question parseQuestionString(String[] rawQuestion) {
-        String difficulty = rawQuestion[0];
+        Difficulty difficulty = Difficulty.valueOf(rawQuestion[0].toUpperCase());
         //System.out.println(rawQuestion[0]);
         String topic = rawQuestion[1];
         String questionToAsk = rawQuestion[2];
@@ -59,6 +60,10 @@ public class QuestionBank {
         for (Question q : questionData) {
             System.out.println(q);
         }
+    }
+
+    private static void shuffle() {
+        Collections.shuffle(questionData);
     }
 
 }

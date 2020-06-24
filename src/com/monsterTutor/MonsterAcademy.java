@@ -1,6 +1,7 @@
 package com.monsterTutor;
 
-import com.display.DisplayAscii;
+import com.ioHelper.DisplayAscii;
+import com.ioHelper.GetUserInput;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -59,8 +60,8 @@ public class MonsterAcademy {
 
     public void createStudent() throws IOException {
         System.out.println("Please register, what is your name?");
-        Scanner readin = new Scanner(System.in);
-        String name = readin.nextLine();
+
+        String name = GetUserInput.getUserString();
         this.student = new Student(name, false);
         writeStudent(student);
     }
@@ -74,9 +75,6 @@ public class MonsterAcademy {
 
     // Getters / Setters
     public void getStudents() {
-        //String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\data\\students.csv";
-        //String csvFile = "data/students.csv";
-        //String line = "";
 
         try {
             Files.lines(Path.of("data", "students.csv")).forEach(line -> {
@@ -91,8 +89,7 @@ public class MonsterAcademy {
 
     public void getStudent() throws IOException {
         System.out.println("What is your name?");
-        Scanner readin = new Scanner(System.in);
-        String name = readin.nextLine();
+        String name = GetUserInput.getUserString();
 
         // name.equals(" ")
 
