@@ -20,27 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/CSVtest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/display/DisplayAscii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/display/DisplayAscii.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/students.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/students.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterTutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterTutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/client/MonsterTutorClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/client/MonsterTutorClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/question/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/question/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/question/QuestionBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/question/QuestionBank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/test.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/client/MonsterTutorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/question/QuestionBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/QuestionBank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,25 +118,29 @@
     </state>
     <state x="1101" y="317" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1592842186888" />
     <state x="1677" y="452" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592840874378" />
-    <state width="2490" height="348" key="GridCell.Tab.0.bottom" timestamp="1593012255827">
-      <screen x="0" y="0" width="2533" height="1241" />
+    <state width="1638" height="554" key="GridCell.Tab.0.bottom" timestamp="1593014852152">
+      <screen x="-1680" y="23" width="1680" height="1027" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722321" />
+    <state width="1638" height="554" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593014852152" />
     <state width="2490" height="348" key="GridCell.Tab.0.bottom/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
-    <state width="2490" height="348" key="GridCell.Tab.0.center" timestamp="1593012255827">
-      <screen x="0" y="0" width="2533" height="1241" />
+    <state width="1638" height="554" key="GridCell.Tab.0.center" timestamp="1593014852151">
+      <screen x="-1680" y="23" width="1680" height="1027" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722167" />
+    <state width="1638" height="554" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593014852151" />
     <state width="2490" height="348" key="GridCell.Tab.0.center/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
-    <state width="2490" height="348" key="GridCell.Tab.0.left" timestamp="1593012255827">
-      <screen x="0" y="0" width="2533" height="1241" />
+    <state width="1638" height="554" key="GridCell.Tab.0.left" timestamp="1593014852151">
+      <screen x="-1680" y="23" width="1680" height="1027" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722166" />
+    <state width="1638" height="554" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593014852151" />
     <state width="2490" height="348" key="GridCell.Tab.0.left/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
-    <state width="2490" height="348" key="GridCell.Tab.0.right" timestamp="1593012255827">
-      <screen x="0" y="0" width="2533" height="1241" />
+    <state width="1638" height="554" key="GridCell.Tab.0.right" timestamp="1593014852152">
+      <screen x="-1680" y="23" width="1680" height="1027" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722320" />
+    <state width="1638" height="554" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593014852152" />
     <state width="2490" height="348" key="GridCell.Tab.0.right/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
     <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1592853305846">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -179,5 +166,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="548" y="332" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592842081502" />
+    <state x="-1175" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1593013438740">
+      <screen x="-1680" y="23" width="1680" height="1027" />
+    </state>
+    <state x="-1175" y="250" width="670" height="676" key="search.everywhere.popup/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593013438740" />
   </component>
 </project>

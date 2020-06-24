@@ -1,14 +1,11 @@
 package com.monsterTutor;
 
 import com.display.DisplayAscii;
-import com.question.Question;
-import com.question.QuestionBank;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class MonsterAcademy {
@@ -25,7 +22,7 @@ public class MonsterAcademy {
         if (studentList.isEmpty()) {
             createStudent();
         } else {
-            this.student = getStudent();
+            getStudent();
         }
         boolean breakGameLoop = false;
         while (!breakGameLoop) {
@@ -61,19 +58,19 @@ public class MonsterAcademy {
     }*/
 
     public void createStudent() throws IOException {
-        System.out.println("What is your name?");
+        System.out.println("Please register, what is your name?");
         Scanner readin = new Scanner(System.in);
         String name = readin.nextLine();
         this.student = new Student(name, false);
         writeStudent(student);
-
     }
 
     public void writeStudent(Student student) throws IOException {
-        BufferedWriter output = new BufferedWriter(new FileWriter("C:\\IntmJ\\workspace2\\tutorApp\\data\\students.csv", true));
+        BufferedWriter output = new BufferedWriter(new FileWriter("data/students.csv", true));
         output.append(student.getName()+","+student.isInDungeon()+"\n");
         output.close();
     }
+
     // Getters / Setters
     public void getStudents() {
         //String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\data\\students.csv";
@@ -101,14 +98,23 @@ public class MonsterAcademy {
         }*/
     }
 
-    public Student getStudent() {
+    public void getStudent() throws IOException {
         System.out.println("What is your name?");
         Scanner readin = new Scanner(System.in);
         String name = readin.nextLine();
-        Student student = studentList.stream()
-                .filter(s -> s.getName().equals(name))
-                .collect(Collectors.toList()).get(0);
-        return student;
+
+        // name.equals(" ")
+
+        List<Student> students = studentList.stream()
+                    .filter(s -> s.getName().equals(name))
+                    .collect(Collectors.toList());
+
+        if (students.isEmpty()) {
+            createStudent();
+        } else {
+            this.student = students.get(0);
+        }
+
     }
 
     public MonsterTutor getMonsterTutor() {
