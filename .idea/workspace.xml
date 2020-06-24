@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/students.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/students.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
-    </list>
+    <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
