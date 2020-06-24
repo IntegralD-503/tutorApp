@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="" />
-=======
+
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/data/banner.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/cyclops.txt" afterDir="false" />
@@ -33,7 +31,7 @@
       <change beforePath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/display/DisplayAscii.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
     </list>
->>>>>>> Stashed changes
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,32 +139,7 @@
     </state>
     <state x="1101" y="317" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1592842186888" />
     <state x="1677" y="452" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592840874378" />
-<<<<<<< Updated upstream
-    <state width="1638" height="554" key="GridCell.Tab.0.bottom" timestamp="1593014852152">
-      <screen x="-1680" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722321" />
-    <state width="1638" height="554" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593014852152" />
-    <state width="2490" height="348" key="GridCell.Tab.0.bottom/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
-    <state width="1638" height="554" key="GridCell.Tab.0.center" timestamp="1593014852151">
-      <screen x="-1680" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722167" />
-    <state width="1638" height="554" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593014852151" />
-    <state width="2490" height="348" key="GridCell.Tab.0.center/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
-    <state width="1638" height="554" key="GridCell.Tab.0.left" timestamp="1593014852151">
-      <screen x="-1680" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722166" />
-    <state width="1638" height="554" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593014852151" />
-    <state width="2490" height="348" key="GridCell.Tab.0.left/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
-    <state width="1638" height="554" key="GridCell.Tab.0.right" timestamp="1593014852152">
-      <screen x="-1680" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722320" />
-    <state width="1638" height="554" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.1920.1057@-1680.23.1680.1027" timestamp="1593014852152" />
-    <state width="2490" height="348" key="GridCell.Tab.0.right/0.0.2533.1241@0.0.2533.1241" timestamp="1593012255827" />
-=======
+
     <state width="2490" height="348" key="GridCell.Tab.0.bottom" timestamp="1593016218545">
       <screen x="0" y="0" width="2533" height="1241" />
     </state>
@@ -187,7 +160,7 @@
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722320" />
     <state width="2490" height="348" key="GridCell.Tab.0.right/0.0.2533.1241@0.0.2533.1241" timestamp="1593016218545" />
->>>>>>> Stashed changes
+
     <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1592853305846">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

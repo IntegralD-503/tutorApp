@@ -4,8 +4,11 @@ import com.display.DisplayAscii;
 import com.question.Question;
 import com.question.QuestionBank;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
+import java.util.function.ToDoubleBiFunction;
+import java.util.stream.Collectors;
 
 public class MonsterTutor {
     String difficulty;
@@ -21,9 +24,34 @@ public class MonsterTutor {
 
     public void tutor() {
         greeting();
-        askQuestion();
+        // TODO - make display of options
+        System.out.println("(1) Play a random game");
+        System.out.println("(2) Exit to main menu");
+        Scanner readin = new Scanner(System.in);
+        // 1. PLay a random game
+        // 2. Exit
+        int input = Integer.valueOf(readin.nextLine());
+        if (input == 1) {
+            playRandomGame();
+        } else if (input == 2) {
+            System.out.println("bye");
+        }
 
     }
+    private void playRandomGame() {
+        // TODO: 6/24/2020 do game logic
+        if(!student.isInDungeon()) {
+            // Game logic
+            List<Question> randomQuestions = questions.stream()
+                    .limit(5)
+                    .collect(Collectors.toList());
+            System.out.println(randomQuestions);
+        } else {
+            System.out.println("You lose");
+            // DisplayAscii.displayDungeon();
+        }
+    }
+
     private void greeting() {
         DisplayAscii.clearConsole();
         System.out.println("Hello I am your Monster Tutor");
@@ -72,6 +100,7 @@ public class MonsterTutor {
     // Getter/Setter
     public void populateQuestions() {
         this.questions = QuestionBank.getQuestionData();
+        //Collections.shuffle(this.questions);
     }
 
 }

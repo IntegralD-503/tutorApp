@@ -14,6 +14,10 @@ public class MonsterTutorClient {
         MonsterAcademy monsterAcademy = new MonsterAcademy();
         //int len = "==================================================================".length();
         //System.out.println(len);
-        monsterAcademy.run();
+        //monsterAcademy.run();
+
+        Student s = new Student("danny",false);
+        MonsterTutor m = new MonsterTutor(s);
+        m.tutor();
     }
 }
