@@ -87,16 +87,6 @@ public class MonsterAcademy {
         } catch (IOException e) {
             System.out.println("Error retrieving students from students.csv");
         }
-       /* try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
-            while ((line = br.readLine()) != null) {
-                // use comma as separator
-                String[] studentArray = line.split(",");
-                Student student = new Student(studentArray[0],Boolean.valueOf(studentArray[1]));
-                studentList.add(student);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }*/
     }
 
     public void getStudent() throws IOException {

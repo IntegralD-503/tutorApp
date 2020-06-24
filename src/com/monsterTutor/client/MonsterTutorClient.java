@@ -12,12 +12,11 @@ import java.util.Scanner;
 public class MonsterTutorClient {
     public static void main(String[] args) throws IOException {
         MonsterAcademy monsterAcademy = new MonsterAcademy();
-        //int len = "==================================================================".length();
-        //System.out.println(len);
-        //monsterAcademy.run();
 
-        Student s = new Student("danny",false);
+        monsterAcademy.run();
+
+ /*       Student s = new Student("danny",false);
         MonsterTutor m = new MonsterTutor(s);
-        m.tutor();
+        m.tutor();*/
     }
 }

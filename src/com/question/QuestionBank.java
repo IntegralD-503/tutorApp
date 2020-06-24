@@ -10,21 +10,6 @@ import java.util.stream.Collectors;
 
 public class QuestionBank {
 
-/*
-    private static List<Question> questionData = Arrays.asList(
-            new Question("easy", "math", "What is 2 + 2?",
-                    Arrays.asList("a. 5","b. 4","7", "9"),
-                    "b"),
-
-            new Question("hard", "Java", "What is 2 + 2?",
-                 Arrays.asList("5","4","7", "9"),
-                    "What is 4."),
-
-            new Question("medium", "Science", "What is 2 + 2?",
-                    Arrays.asList("5","4","7", "9"),
-                    "What is 4."));
-*/
-
     private static List<Question> questionData = readCSV();
 
     public static List<Question> getQuestionData() {
@@ -39,22 +24,6 @@ public class QuestionBank {
 //        String cvsSplitBy = ",";
         List<Question> questions = new ArrayList<>();
 
-/*        try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
-
-            while ((line = br.readLine()) != null) {
-                // use comma as separator
-                String[] questionArray = line.split(cvsSplitBy);
-
-                Question question = parseQuestionString(questionArray);
-
-                //System.out.println(question);
-                //question.forEach(System.out::println);
-                questions.add(question);
-
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }*/
         try {
             Files.lines(Path.of("data", "questions.csv")).forEach(line -> {
                 String[] questionArray = line.split(",");
