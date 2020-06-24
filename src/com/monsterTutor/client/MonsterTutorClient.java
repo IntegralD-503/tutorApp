@@ -6,46 +6,14 @@ import com.monsterTutor.MonsterTutor;
 import com.monsterTutor.Student;
 import com.question.QuestionBank;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class MonsterTutorClient {
-    public static void main(String[] args) {
-        Student student1 = new Student();
-        //MonsterTutor monsterTutor = new MonsterTutor("easy","Math",student1);
-        MonsterAcademy monsterAcademy = new MonsterAcademy("easy","Math",student1);
-        //MonsterTutor monsterTutor = monsterAcademy.getMonsterTutor();
-        //monsterTutor.punish();
-
-        //monsterTutor.getQuestion();
-
-
-        Scanner readin = new Scanner(System.in);
-        DisplayAscii.welcomeScreen();
-        System.out.println("Welcome to the MonsterTutor Application");
-        boolean keepRunning = true;
-        while (keepRunning) {
-            DisplayAscii.displayStartMenu();
-            int userInput = Integer.valueOf(readin.nextLine());
-            switch (userInput) {
-                case 1:
-                    monsterAcademy.startTutorSession();
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    keepRunning = false;
-                    break;
-                default:
-                    System.out.println("Please Enter a number 1-3");
-            }
-        }
-/*
-        Student studentGuy = new Student();
-        MonsterTutor tutor = new MonsterTutor("easy","math",studentGuy);
-        QuestionBank.printQuestions();
-
-        //tutor.printQuestions();
-        tutor.askQuestion();
-        //System.out.println(tutor.getDifficulty());*/
+    public static void main(String[] args) throws IOException {
+        MonsterAcademy monsterAcademy = new MonsterAcademy();
+        int len = "==================================================================".length();
+        System.out.println(len);
+        monsterAcademy.run();
     }
 }

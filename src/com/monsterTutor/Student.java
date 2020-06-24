@@ -1,13 +1,15 @@
 package com.monsterTutor;
 
 public class Student {
-    private static int MIN_HEALTH = 0;
-    private static int MAX_HEALTH = 100;
 
     private String name;
-    private int health = 100;
-    boolean isKnockedOut = false;
+    private int chances = 3;
+    private boolean inDungeon = false;
 
+    public Student(String name, boolean inDungeon) {
+        this.name = name;
+        this.inDungeon = inDungeon;
+    }
     public String getName() {
         return name;
     }
@@ -17,28 +19,31 @@ public class Student {
     }
 
   
-    public void damageHealth(int damage) {
-        this.health -= damage;
-        if (health <= 0) {
-            isKnockedOut = true;
+    public void loseChance() {
+        this.chances -= 1;
+        if (chances <= 0) {
+            inDungeon = true;
         }
     }
 
-    public void restoreHealth(int health) {
-        this.health += health;
+    public void addChance() {
+        this.chances += 1;
     }
 
     // Getters/Setters
     public int getHealth() {
-        return health;
-    }
-
-    public void setHealth(int health) {
-        this.health = health;
+        return chances;
     }
 
     public boolean getIsKnockedOut() {
-        return isKnockedOut;
+        return inDungeon;
     }
 
+    public boolean isInDungeon() {
+        return inDungeon;
+    }
+
+    public int getChances() {
+        return chances;
+    }
 }

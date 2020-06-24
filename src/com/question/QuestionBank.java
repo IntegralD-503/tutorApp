@@ -3,6 +3,8 @@ package com.question;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -25,25 +27,14 @@ public class QuestionBank {
 
     private static List<Question> questionData = readCSV();
 
-    public static List<Question> getQuestions(String difficulty) {
-        List<Question> questions = getQuestionData().stream()
-                .filter(q -> q.getDifficulty().equals(difficulty))
-                //.filter(q -> q.getTopic().equals(topic))
-                .collect(Collectors.toList());
-
-        // shuffle questions
-        Collections.shuffle(questions);
-
-        return questions;
-    }
-
     public static List<Question> getQuestionData() {
         List<Question> questions = Collections.unmodifiableList(questionData);
         return questions;
     }
 
     public static List<Question> readCSV() {
-        String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\src\\questions.csv";
+        String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\data\\questions.csv";
+//        String csvFile = "data/questions.csv";
         String line = "";
         String cvsSplitBy = ",";
         List<Question> questions = new ArrayList<>();
@@ -64,6 +55,15 @@ public class QuestionBank {
         } catch (IOException e) {
             e.printStackTrace();
         }
+/*        try {
+            Files.lines(Path.of("data", "questions.csv")).forEach(line -> {
+                String[] questionArray = line.split(",");
+                Question question = parseQuestionString(questionArray);
+                questions.add(question);
+            });
+        } catch (IOException e) {
+            System.out.println("not working");
+        }*/
         //System.out.println(questions);
         return questions;
     }
@@ -87,10 +87,9 @@ public class QuestionBank {
     }
 
     public static void printQuestions(){
-//        for (Question q : questionData) {
-//            System.out.println(q);
-//        }
-        System.out.println(questionData.get(0));
+        for (Question q : questionData) {
+            System.out.println(q);
+        }
     }
 
 }

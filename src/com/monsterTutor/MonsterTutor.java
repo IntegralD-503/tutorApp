@@ -13,11 +13,10 @@ public class MonsterTutor {
     Student student;
     List<Question> questions;
 
-    public MonsterTutor(String difficulty,String topic, Student student) {
-        this.difficulty = difficulty;
-        this.topic = topic;
+    public MonsterTutor(Student student) {
         this.student = student;
-        getQuestions();
+
+        populateQuestions();
     }
 
     public void tutor() {
@@ -52,37 +51,27 @@ public class MonsterTutor {
         }
 
     }
-    public void getQuestions() {
-        this.questions = QuestionBank.getQuestions(this.difficulty);
-    }
-
-    public void getAnswer(String answer) {
-
-    }
 
     public void punish() {
         DisplayAscii.clearConsole();
         //DisplayAscii.displayMonsterTutor();
-        student.damageHealth(10);
-        System.out.println("Wrong answer");
+        student.loseChance();
+        System.out.println("Wrong answer, watch out you only have "
+                +student.getChances() + " chances left");
     }
 
     public void praise() {
         System.out.println("You live to see another round");
-        student.restoreHealth(10);
+        student.addChance();
     }
 
     public void reward() {
         System.out.println("Tonight you will have a feast fit for the gods");
     }
 
-    public void printQuestions() {
-        for (Question q : questions) {
-            System.out.println(q);
-        }
+    // Getter/Setter
+    public void populateQuestions() {
+        this.questions = QuestionBank.getQuestionData();
     }
 
-    public String getDifficulty() {
-        return difficulty;
-    }
 }

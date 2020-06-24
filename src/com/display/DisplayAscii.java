@@ -7,11 +7,21 @@ public class DisplayAscii {
     //Gameface
 
 
-    public static void displayStartMenu() {
+    public static int displayStartMenu() {
         clearConsole();
-        System.out.println("1 - Enter TutorMonster Academy");
-        System.out.println("2 - View Student Statistics");
-        System.out.println("3 - Exit");
+        topBorder();
+
+        String option1 = "+   1 - Enter TutorMonster Academy";
+        String option2 = "+   2 - View Student Statistics";
+        String option3 = "+   3 - Exit";
+        int padding = option1.length()+5;
+        System.out.println(option1 + " ".repeat(padding-option1.length())+"+");
+        System.out.println(option2 + " ".repeat(padding-option2.length())+"+");
+        System.out.println(option3 + " ".repeat(padding-option3.length())+"+");
+        bottomBorder();
+        Scanner readin = new Scanner(System.in);
+        int result = Integer.valueOf(readin.nextLine());
+        return result;
     }
 
         public static void welcomeScreen() {
@@ -114,5 +124,13 @@ public class DisplayAscii {
         {
             System.out.println("didn't work");
         }
+    }
+
+    private static void topBorder() {
+        System.out.println("==================================================================");
+    }
+
+    private static void bottomBorder() {
+        System.out.println("==================================================================");
     }
 }
