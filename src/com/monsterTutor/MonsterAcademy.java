@@ -66,7 +66,8 @@ public class MonsterAcademy {
     }
 
     public void writeStudent(Student student) throws IOException {
-        BufferedWriter output = new BufferedWriter(new FileWriter("data/students.csv", true));
+        String csvFile = "data/students.csv";
+        BufferedWriter output = new BufferedWriter(new FileWriter(csvFile, true));
         output.append(student.getName()+","+student.isInDungeon()+"\n");
         output.close();
     }
