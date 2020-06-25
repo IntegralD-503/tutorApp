@@ -21,12 +21,13 @@ public class MonsterTutor {
 
     public void tutor() {
         greeting();
+        resetCharacter();
+
         System.out.println("(1) Start a randomized tutoring session");
         System.out.println("(2) Start a tutor session with a topic of your choice");
         System.out.println("(3) Exit to main menu");
 
         int input = IO_Operations.getUserInteger();
-
         if (input == 1) {
             playRandomGame();
         } else if (input == 2) {
@@ -132,5 +133,10 @@ public class MonsterTutor {
     public void populateQuestions() {
         this.questions = QuestionBank.getQuestionData();
         //Collections.shuffle(this.questions);
+    }
+
+    private void resetCharacter() {
+        student.setInDungeon(false);
+        student.setChances(3);
     }
 }

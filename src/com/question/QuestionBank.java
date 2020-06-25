@@ -16,10 +16,7 @@ public class QuestionBank {
     }
 
     public static List<Question> readCSV() {
-//        String csvFile = "C:\\IntmJ\\workspace2\\tutorApp\\data\\questions.csv";
         String csvFile = "data/questions.csv";
-//        String line = "";
-//        String cvsSplitBy = ",";
         List<Question> questions = new ArrayList<>();
 
         try {

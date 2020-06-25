@@ -31,10 +31,6 @@ public class Student {
     }
 
     // Getters/Setters
-    public int getHealth() {
-        return chances;
-    }
-
     public boolean getIsKnockedOut() {
         return inDungeon;
     }
@@ -43,8 +39,16 @@ public class Student {
         return inDungeon;
     }
 
+    public void setInDungeon(boolean inDungeon) {
+        this.inDungeon = inDungeon;
+    }
+
     public int getChances() {
         return chances;
+    }
+
+    public void setChances(int chances) {
+        this.chances = chances;
     }
 
     @Override
