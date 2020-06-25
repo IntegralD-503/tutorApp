@@ -12,9 +12,6 @@ public class MonsterTutorClient {
 
         monsterAcademy.run();
 
- /*       Student s = new Student("danny",false);
-        MonsterTutor m = new MonsterTutor(s);
-        m.tutor();*/
     }
 
 }

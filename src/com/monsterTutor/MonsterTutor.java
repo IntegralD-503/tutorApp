@@ -10,11 +10,10 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class MonsterTutor {
-    String difficulty;
-    String topic;
-    Student student;
-    List<Question> questions;
-    GetUserInput userInput = new GetUserInput();
+    private String difficulty;
+    private String topic;
+    private Student student;
+    private List<Question> questions;
 
     public MonsterTutor(Student student) {
         this.student = student;

@@ -6,7 +6,7 @@ public class Question {
     private Difficulty difficulty;
     private String topic;
     private String question;
-    List<String> answersOptions;
+    private List<String> answersOptions;
     private String answer;
 
     Question(Difficulty difficulty, String topic,

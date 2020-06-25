@@ -10,9 +10,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class MonsterAcademy {
-    Map<String,Student> studentList = new HashMap<>();
-    Student student;
-    MonsterTutor monsterTutor;
+    private Map<String,Student> studentList = new HashMap<>();
+    private Student student;
+    private MonsterTutor monsterTutor;
 
     public MonsterAcademy() {
        getStudentsFromCSV();
