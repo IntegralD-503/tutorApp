@@ -3,13 +3,13 @@ package com.question;
 import java.util.List;
 
 public class Question {
-    private Difficulty difficulty;
+    private DifficultySetting difficulty;
     private String topic;
     private String question;
     private List<String> answersOptions;
     private String answer;
 
-    Question(Difficulty difficulty, String topic,
+    Question(DifficultySetting difficulty, String topic,
              String question, List<String> answerOptions,
              String correctAnswer) {
         this.difficulty = difficulty;
@@ -23,7 +23,7 @@ public class Question {
         return topic;
     }
 
-    public Difficulty getDifficulty() {
+    public DifficultySetting getDifficulty() {
         return difficulty;
     }
 

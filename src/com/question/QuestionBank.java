@@ -1,12 +1,9 @@
 package com.question;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class QuestionBank {
 
@@ -39,7 +36,7 @@ public class QuestionBank {
     }
 
     private static Question parseQuestionString(String[] rawQuestion) {
-        Difficulty difficulty = Difficulty.valueOf(rawQuestion[0].toUpperCase());
+        DifficultySetting difficulty = DifficultySetting.valueOf(rawQuestion[0].toUpperCase());
         //System.out.println(rawQuestion[0]);
         String topic = rawQuestion[1];
         String questionToAsk = rawQuestion[2];

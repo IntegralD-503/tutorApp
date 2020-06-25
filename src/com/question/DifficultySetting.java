@@ -1,6 +1,6 @@
 package com.question;
 
-public enum Difficulty {
+public enum DifficultySetting {
     EASY,
     MEDIUM,
     HARD
