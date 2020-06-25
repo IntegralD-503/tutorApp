@@ -20,19 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2404ad5-6e96-4eba-bd61-67860c1ef058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/hauntedCastle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/students.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/students.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/ioHelper/DIsplayTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/ioHelper/DIsplayTester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/ioHelper/DisplayAscii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/ioHelper/DisplayAscii.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterAcademy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterTutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/MonsterTutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tutorApp/com/monsterTutor/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ioHelper/DIsplayTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ioHelper/DIsplayTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ioHelper/DisplayAscii.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ioHelper/DisplayAscii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterAcademy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/MonsterTutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monsterTutor/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monsterTutor/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorApp.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +48,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.monsterTutor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MonsterTutorClient">
@@ -141,30 +140,34 @@
       <screen x="0" y="0" width="2533" height="1241" />
     </state>
     <state x="1034" y="321" key="#com.intellij.ide.util.MemberChooser/0.0.2533.1241@0.0.2533.1241" timestamp="1593055233092" />
+    <state x="745" y="416" width="430" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593096511308">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="745" y="416" width="430" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1593096511308" />
     <state x="1101" y="317" key="FileChooserDialogImpl" timestamp="1592842186888">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="1101" y="317" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1592842186888" />
     <state x="1677" y="452" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1592840874378" />
-    <state width="2490" height="307" key="GridCell.Tab.0.bottom" timestamp="1593060387110">
-      <screen x="0" y="0" width="2533" height="1241" />
+    <state width="1878" height="557" key="GridCell.Tab.0.bottom" timestamp="1593094787464">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722321" />
+    <state width="1878" height="557" key="GridCell.Tab.0.bottom/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1593094787464" />
     <state width="2490" height="307" key="GridCell.Tab.0.bottom/0.0.2533.1241@0.0.2533.1241" timestamp="1593060387110" />
-    <state width="2490" height="307" key="GridCell.Tab.0.center" timestamp="1593060387108">
-      <screen x="0" y="0" width="2533" height="1241" />
+    <state width="1878" height="557" key="GridCell.Tab.0.center" timestamp="1593094787462">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722167" />
+    <state width="1878" height="557" key="GridCell.Tab.0.center/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1593094787462" />
     <state width="2490" height="307" key="GridCell.Tab.0.center/0.0.2533.1241@0.0.2533.1241" timestamp="1593060387108" />
-    <state width="2490" height="307" key="GridCell.Tab.0.left" timestamp="1593060387108">
-      <screen x="0" y="0" width="2533" height="1241" />
+    <state width="1878" height="557" key="GridCell.Tab.0.left" timestamp="1593094787461">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722166" />
+    <state width="1878" height="557" key="GridCell.Tab.0.left/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1593094787461" />
     <state width="2490" height="307" key="GridCell.Tab.0.left/0.0.2533.1241@0.0.2533.1241" timestamp="1593060387108" />
-    <state width="2490" height="307" key="GridCell.Tab.0.right" timestamp="1593060387109">
-      <screen x="0" y="0" width="2533" height="1241" />
+    <state width="1878" height="557" key="GridCell.Tab.0.right" timestamp="1593094787463">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1592854722320" />
+    <state width="1878" height="557" key="GridCell.Tab.0.right/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1593094787463" />
     <state width="2490" height="307" key="GridCell.Tab.0.right/0.0.2533.1241@0.0.2533.1241" timestamp="1593060387109" />
     <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1592853305846">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -190,6 +193,14 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="548" y="332" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592842081502" />
+    <state x="683" y="439" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593096721420">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="683" y="439" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1593096721420" />
+    <state x="667" y="266" width="586" height="548" key="find.popup" timestamp="1593096448217">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="266" width="586" height="548" key="find.popup/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1593096448217" />
     <state x="-1175" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1593013438740">
       <screen x="-1680" y="23" width="1680" height="1027" />
     </state>
