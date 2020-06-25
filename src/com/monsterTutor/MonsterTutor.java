@@ -1,12 +1,10 @@
 package com.monsterTutor;
 
-import com.ioHelper.DisplayAscii;
-import com.ioHelper.GetUserInput;
+import com.ioHelper.IO_Operations;
 import com.question.Question;
 import com.question.QuestionBank;
 
 import java.util.List;
-import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class MonsterTutor {
@@ -27,7 +25,7 @@ public class MonsterTutor {
         System.out.println("(2) Start a tutor session with a topic of your choice");
         System.out.println("(3) Exit to main menu");
 
-        int input = GetUserInput.getUserInteger();
+        int input = IO_Operations.getUserInteger();
 
         if (input == 1) {
             playRandomGame();
@@ -40,7 +38,7 @@ public class MonsterTutor {
     private void playRandomGame() {
             // Game logic
             System.out.println("How many questions do you want?");
-            int howManyQs = GetUserInput.getUserInteger();
+            int howManyQs = IO_Operations.getUserInteger();
             List<Question> randomQuestions = questions.stream()
                     .limit(howManyQs)
                     .collect(Collectors.toList());
@@ -52,7 +50,7 @@ public class MonsterTutor {
         // Game logic
         System.out.println("What topic would you like to be quizzed on?");
         System.out.println("Topics: [math,literature,java]");
-        String topic = GetUserInput.getUserString();
+        String topic = IO_Operations.getUserString();
         List<Question> specificQuestions = questions.stream()
                 .filter(question -> question.getTopic().equals(topic))
                 .collect(Collectors.toList());
@@ -68,41 +66,41 @@ public class MonsterTutor {
                 continue;
             } else {
                 //System.out.println("You lose");
-                DisplayAscii.displayDungeon();
+                IO_Operations.displayDungeon();
                 break;
             }
         }
         // call youWin Function
         if (!student.isInDungeon()) {
             //System.out.println("winner winner chicken dinner");
-            DisplayAscii.displayWin();
+            IO_Operations.displayWin();
         }
     }
     private void greeting() {
-        DisplayAscii.clearConsole();
-        DisplayAscii.displayMonsterTutor();
+        IO_Operations.clearConsole();
+        IO_Operations.displayMonsterTutor();
         System.out.println("Hello I am your Monster Tutor");
         System.out.println("What you you like to do?");
     }
 
     private void askQuestion(Question q) {
-        DisplayAscii.clearConsole();
+        IO_Operations.clearConsole();
         System.out.println("\n\n\n\n");
         System.out.println("Here is a " + q.getDifficulty() + " question about "+q.getTopic());
         System.out.println(q.getQuestion()+"\n");
         q.getAnswersOptions().forEach(System.out::println);
         System.out.println("\nWhich answer is correct? [a,b,c,d]");
-        String answer = GetUserInput.getUserString();
+        String answer = IO_Operations.getUserString();
         if (answer.equals(q.getAnswer())) {
             reward();
             System.out.println("Press Enter for next Question");
-            String enter = GetUserInput.getUserString();
+            String enter = IO_Operations.getUserString();
         } else {
             punish();
             if (!student.isInDungeon()) {
                 System.out.println("Press Enter for next Question");
             }
-            String enter = GetUserInput.getUserString();
+            String enter = IO_Operations.getUserString();
         }
 
     }

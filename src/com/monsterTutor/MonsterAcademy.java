@@ -1,13 +1,11 @@
 package com.monsterTutor;
 
-import com.ioHelper.DisplayAscii;
-import com.ioHelper.GetUserInput;
+import com.ioHelper.IO_Operations;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class MonsterAcademy {
     private Map<String,Student> studentList = new HashMap<>();
@@ -19,7 +17,7 @@ public class MonsterAcademy {
     }
 
     public void run() throws IOException {
-        DisplayAscii.welcomeScreen();
+        IO_Operations.welcomeScreen();
         selectStudent();
 
         boolean breakGameLoop = false;
@@ -47,15 +45,15 @@ public class MonsterAcademy {
     }
 
     public void selectStudent() {
-        DisplayAscii.clearConsole();
+        IO_Operations.clearConsole();
         System.out.println("If you are already listed below, enter your name to" +
                 "\ncontinue, else type \"new\" to create and register a new student\n");
         listStudents();
         System.out.println();
-        String name = GetUserInput.getUserString();
+        String name = IO_Operations.getUserString();
         if (name.equals("new")) {
             System.out.println("Please enter your name to register yourself as a new student");
-            name = GetUserInput.getUserString();
+            name = IO_Operations.getUserString();
             createStudent(name);
         } else if (studentList.containsKey(name)) { // else if get pre-existent student
             this.student = studentList.get(name);
@@ -98,16 +96,16 @@ public class MonsterAcademy {
         monsterTutor.tutor();
     }
     public void menuScreenOptionTwo() {
-        DisplayAscii.clearConsole();
+        IO_Operations.clearConsole();
         System.out.println("\n\n\n\n");
         listStudents();
         System.out.println("\nhit enter to return to the main screen");
-        GetUserInput.getUserString();
+        IO_Operations.getUserString();
     }
     public int displayStartMenu() {
-        DisplayAscii.clearConsole();
+        IO_Operations.clearConsole();
 
-        DisplayAscii.displayMonsterAcademy();
+        IO_Operations.displayMonsterAcademy();
         String option1 = " ".repeat(11) + "+   1 - Enter TutorMonster Academy";
         String option2 = " ".repeat(11) + "+   2 - List Current Students";
         String option3 = " ".repeat(11) + "+   3 - Exit";
@@ -117,12 +115,12 @@ public class MonsterAcademy {
         int userWelcomePadding = 32-userWelcome.length()/2;
         System.out.println("\n\n\n");
         System.out.println(" ".repeat(userWelcomePadding) + userWelcome+"\n");
-        DisplayAscii.topBorder(padding+1,DisplayAscii.LEFT_INDENT);
+        IO_Operations.topBorder(padding+1, IO_Operations.LEFT_INDENT);
         System.out.println(option1 + " ".repeat(padding-option1.length()+10)+"+");
         System.out.println(option2 + " ".repeat(padding-option2.length()+10)+"+");
         System.out.println(option3 + " ".repeat(padding-option3.length()+10)+"+");
-        DisplayAscii.bottomBorder(padding+1,DisplayAscii.LEFT_INDENT);
-        int result = GetUserInput.getUserInteger();
+        IO_Operations.bottomBorder(padding+1, IO_Operations.LEFT_INDENT);
+        int result = IO_Operations.getUserInteger();
         return result;
     }
 

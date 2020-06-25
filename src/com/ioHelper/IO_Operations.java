@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class DisplayAscii {
+public class IO_Operations {
     //Gameface
     public static final int LEFT_INDENT = 10;
 
@@ -19,7 +19,7 @@ public class DisplayAscii {
         slowPrint(output, output.length());
 
         System.out.println("      Press Enter to Continue...");
-        String enter = GetUserInput.getUserString();
+        String enter = getUserString();
     }
     public  static void displayMonsterAcademy() {
         String monsterAcademy = getAsciiArt("hauntedCastle.txt");
@@ -37,7 +37,7 @@ public class DisplayAscii {
         System.out.println("\n\n\n\n\n");
         slowPrint(dungeon, dungeon.length());
         System.out.println("\nPress Enter to return to the main menu");
-        GetUserInput.getUserString();
+        getUserString();
     }
 
     public static void displayWin() {
@@ -48,7 +48,7 @@ public class DisplayAscii {
         slowPrint(victoryBanner, victoryBanner.length());
 
         System.out.println("\nPress Enter to return to main screen");
-        GetUserInput.getUserString();
+        getUserString();
     }
 
 
@@ -79,6 +79,18 @@ public class DisplayAscii {
 
     public static void bottomBorder(int count, int leftIndent) {
         System.out.println(" ".repeat(leftIndent) + "=".repeat(count));
+    }
+
+    public static int getUserInteger() {
+        Scanner readin = new Scanner(System.in);
+        int input = Integer.valueOf(readin.nextLine());
+        return input;
+    }
+
+    public static String getUserString() {
+        Scanner readin = new Scanner(System.in);
+        String input = readin.nextLine();
+        return input;
     }
 
     private static String getAsciiArt(String filename) {
