@@ -22,7 +22,8 @@ public class MonsterAcademy {
 
         boolean breakGameLoop = false;
         while (!breakGameLoop) {
-            int status = displayStartMenu();
+            IO_Operations.displayStartMenu(student.getName());
+            int status = IO_Operations.getUserInteger();
             switch (status) {
                 case 1:
                     menuScreenOptionOne();
@@ -102,26 +103,4 @@ public class MonsterAcademy {
         System.out.println("\nhit enter to return to the main screen");
         IO_Operations.getUserString();
     }
-    public int displayStartMenu() {
-        IO_Operations.clearConsole();
-
-        IO_Operations.displayMonsterAcademy();
-        String option1 = " ".repeat(11) + "+   1 - Enter TutorMonster Academy";
-        String option2 = " ".repeat(11) + "+   2 - List Current Students";
-        String option3 = " ".repeat(11) + "+   3 - Exit";
-        int padding = option1.length()+5;
-
-        String userWelcome = "Welcome " + student.getName();
-        int userWelcomePadding = 32-userWelcome.length()/2;
-        System.out.println("\n\n\n");
-        System.out.println(" ".repeat(userWelcomePadding) + userWelcome+"\n");
-        IO_Operations.topBorder(padding+1, IO_Operations.LEFT_INDENT);
-        System.out.println(option1 + " ".repeat(padding-option1.length()+10)+"+");
-        System.out.println(option2 + " ".repeat(padding-option2.length()+10)+"+");
-        System.out.println(option3 + " ".repeat(padding-option3.length()+10)+"+");
-        IO_Operations.bottomBorder(padding+1, IO_Operations.LEFT_INDENT);
-        int result = IO_Operations.getUserInteger();
-        return result;
-    }
-
 }

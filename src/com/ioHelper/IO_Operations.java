@@ -21,6 +21,27 @@ public class IO_Operations {
         System.out.println("      Press Enter to Continue...");
         String enter = getUserString();
     }
+
+    public static void displayStartMenu(String name) {
+        clearConsole();
+
+        displayMonsterAcademy();
+        String option1 = " ".repeat(11) + "+   1 - Enter TutorMonster Academy";
+        String option2 = " ".repeat(11) + "+   2 - List Current Students";
+        String option3 = " ".repeat(11) + "+   3 - Exit";
+        int padding = option1.length()+5;
+
+        String userWelcome = "Welcome " + name;
+        int userWelcomePadding = 32-userWelcome.length()/2;
+        System.out.println("\n\n\n");
+        System.out.println(" ".repeat(userWelcomePadding) + userWelcome+"\n");
+        topBorder(padding+1, LEFT_INDENT);
+        System.out.println(option1 + " ".repeat(padding-option1.length()+10)+"+");
+        System.out.println(option2 + " ".repeat(padding-option2.length()+10)+"+");
+        System.out.println(option3 + " ".repeat(padding-option3.length()+10)+"+");
+        bottomBorder(padding+1, LEFT_INDENT);
+    }
+
     public  static void displayMonsterAcademy() {
         String monsterAcademy = getAsciiArt("hauntedCastle.txt");
         slowPrint(monsterAcademy, monsterAcademy.length());
