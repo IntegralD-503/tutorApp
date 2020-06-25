@@ -26,6 +26,7 @@ public class DisplayAscii {
         slowPrint(monsterAcademy, monsterAcademy.length());
     }
     public static void displayMonsterTutor() {
+        System.out.println("\n\n\n\n");
         String monsterTutor = getAsciiArt("cyclops.txt");
         slowPrint(monsterTutor, monsterTutor.length());
     }
@@ -33,6 +34,7 @@ public class DisplayAscii {
     public static void displayDungeon() {
         clearConsole();
         String dungeon = getAsciiArt("dungeon.txt");
+        System.out.println("\n\n\n\n\n");
         slowPrint(dungeon, dungeon.length());
         System.out.println("\nPress Enter to return to the main menu");
         GetUserInput.getUserString();

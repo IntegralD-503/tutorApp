@@ -24,7 +24,6 @@ public class MonsterTutor {
 
     public void tutor() {
         greeting();
-        // TODO - make display of options
         System.out.println("(1) Start a randomized tutoring session");
         System.out.println("(2) Start a tutor session with a topic of your choice");
         System.out.println("(3) Exit to main menu");
@@ -40,7 +39,6 @@ public class MonsterTutor {
         }
     }
     private void playRandomGame() {
-        // TODO: 6/24/2020 do game logic
             // Game logic
             System.out.println("How many questions do you want?");
             int howManyQs = GetUserInput.getUserInteger();
@@ -77,19 +75,20 @@ public class MonsterTutor {
         }
         // call youWin Function
         if (!student.isInDungeon()) {
-            System.out.println("winner winner chicken dinner");
+            //System.out.println("winner winner chicken dinner");
             DisplayAscii.displayWin();
         }
     }
     private void greeting() {
         DisplayAscii.clearConsole();
-        System.out.println("Hello I am your Monster Tutor");
         DisplayAscii.displayMonsterTutor();
+        System.out.println("Hello I am your Monster Tutor");
         System.out.println("What you you like to do?");
     }
 
     private void askQuestion(Question q) {
         DisplayAscii.clearConsole();
+        System.out.println("\n\n\n\n");
         System.out.println("Here is a " + q.getDifficulty() + " question about "+q.getTopic());
         System.out.println(q.getQuestion()+"\n");
         q.getAnswersOptions().forEach(System.out::println);

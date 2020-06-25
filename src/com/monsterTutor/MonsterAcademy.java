@@ -98,8 +98,10 @@ public class MonsterAcademy {
         monsterTutor.tutor();
     }
     public void menuScreenOptionTwo() {
+        DisplayAscii.clearConsole();
+        System.out.println("\n\n\n\n");
         listStudents();
-        System.out.println("hit enter to return to the main screen");
+        System.out.println("\nhit enter to return to the main screen");
         GetUserInput.getUserString();
     }
     public int displayStartMenu() {
@@ -113,8 +115,8 @@ public class MonsterAcademy {
 
         String userWelcome = "Welcome " + student.getName();
         int userWelcomePadding = 32-userWelcome.length()/2;
-        System.out.println("\n\n\n\n");
-        System.out.println(" ".repeat(userWelcomePadding) + userWelcome);
+        System.out.println("\n\n\n");
+        System.out.println(" ".repeat(userWelcomePadding) + userWelcome+"\n");
         DisplayAscii.topBorder(padding+1,DisplayAscii.LEFT_INDENT);
         System.out.println(option1 + " ".repeat(padding-option1.length()+10)+"+");
         System.out.println(option2 + " ".repeat(padding-option2.length()+10)+"+");
