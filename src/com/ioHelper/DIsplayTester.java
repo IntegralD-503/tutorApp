@@ -7,6 +7,6 @@ public class DIsplayTester {
 
         DisplayAscii.welcomeScreen();
         DisplayAscii.displayMonsterTutor();
-        DisplayAscii.displayStartMenu();
+
     }
 }

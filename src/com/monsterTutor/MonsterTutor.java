@@ -25,8 +25,8 @@ public class MonsterTutor {
     public void tutor() {
         greeting();
         // TODO - make display of options
-        System.out.println("(1) Play a random game");
-        System.out.println("(2) Play a game with specified topic");
+        System.out.println("(1) Start a randomized tutoring session");
+        System.out.println("(2) Start a tutor session with a topic of your choice");
         System.out.println("(3) Exit to main menu");
 
         int input = GetUserInput.getUserInteger();
@@ -36,7 +36,7 @@ public class MonsterTutor {
         } else if (input == 2) {
             playGame();
         } else if (input == 3) {
-            System.out.println("bye");
+            // falls through
         }
     }
     private void playRandomGame() {
@@ -70,7 +70,7 @@ public class MonsterTutor {
             if (!student.isInDungeon()) {
                 continue;
             } else {
-                System.out.println("You lose");
+                //System.out.println("You lose");
                 DisplayAscii.displayDungeon();
                 break;
             }

@@ -9,23 +9,7 @@ import java.util.stream.Collectors;
 
 public class DisplayAscii {
     //Gameface
-
-
-    public static int displayStartMenu() {
-        clearConsole();
-
-        String option1 = "+   1 - Enter TutorMonster Academy";
-        String option2 = "+   2 - View Student Statistics";
-        String option3 = "+   3 - Exit";
-        int padding = option1.length()+5;
-        topBorder(padding+1);
-        System.out.println(option1 + " ".repeat(padding-option1.length())+"+");
-        System.out.println(option2 + " ".repeat(padding-option2.length())+"+");
-        System.out.println(option3 + " ".repeat(padding-option3.length())+"+");
-        bottomBorder(padding+1);
-        int result = GetUserInput.getUserInteger();
-        return result;
-    }
+    public static final int LEFT_INDENT = 10;
 
     public static void welcomeScreen() {
         clearConsole();
@@ -37,7 +21,10 @@ public class DisplayAscii {
         System.out.println("      Press Enter to Continue...");
         String enter = GetUserInput.getUserString();
     }
-
+    public  static void displayMonsterAcademy() {
+        String monsterAcademy = getAsciiArt("hauntedCastle.txt");
+        slowPrint(monsterAcademy, monsterAcademy.length());
+    }
     public static void displayMonsterTutor() {
         String monsterTutor = getAsciiArt("cyclops.txt");
         slowPrint(monsterTutor, monsterTutor.length());
@@ -47,6 +34,8 @@ public class DisplayAscii {
         clearConsole();
         String dungeon = getAsciiArt("dungeon.txt");
         slowPrint(dungeon, dungeon.length());
+        System.out.println("\nPress Enter to return to the main menu");
+        GetUserInput.getUserString();
     }
 
     public static void displayWin() {
@@ -82,12 +71,12 @@ public class DisplayAscii {
         }
     }
 
-    private static void topBorder(int count) {
-        System.out.println("=".repeat(count));
+    public static void topBorder(int count, int leftIndent) {
+        System.out.println(" ".repeat(leftIndent)  + "=".repeat(count));
     }
 
-    private static void bottomBorder(int count) {
-        System.out.println("=".repeat(count));
+    public static void bottomBorder(int count, int leftIndent) {
+        System.out.println(" ".repeat(leftIndent) + "=".repeat(count));
     }
 
     private static String getAsciiArt(String filename) {

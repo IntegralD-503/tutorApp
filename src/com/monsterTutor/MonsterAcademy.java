@@ -10,102 +10,118 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class MonsterAcademy {
-    List<Student> studentList = new ArrayList<>();
+    Map<String,Student> studentList = new HashMap<>();
     Student student;
     MonsterTutor monsterTutor;
 
     public MonsterAcademy() {
-       getStudents();
+       getStudentsFromCSV();
     }
 
     public void run() throws IOException {
         DisplayAscii.welcomeScreen();
-        if (studentList.isEmpty()) {
-            createStudent();
-        } else {
-            getStudent();
-        }
+        selectStudent();
+
         boolean breakGameLoop = false;
         while (!breakGameLoop) {
-            int status = DisplayAscii.displayStartMenu();
+            int status = displayStartMenu();
             switch (status) {
                 case 1:
-                    summonMonsterTutor();
-                    monsterTutor.tutor();
+                    menuScreenOptionOne();
                     break;
                 case 2:
+                    menuScreenOptionTwo();
                     break;
                 case 3:
                     breakGameLoop = true;
-
             }
         }
-
     }
-
+    // Instantiate monsterTutor
     public void summonMonsterTutor() {
         monsterTutor = new MonsterTutor(student);
     }
 
+    public void listStudents() {
+        this.studentList.forEach( (name,student) -> System.out.println(name));
+    }
 
-/*    public void startTutorSession() {
-        System.out.println("Would you like to begin your tutoring session? [yes/no]");
-        Scanner readin = new Scanner(System.in);
-        String askQuestion = readin.nextLine();
-        if (askQuestion.equals("yes")) {
-            monsterTutor.tutor();
-        }
-
-    }*/
-
-    public void createStudent() throws IOException {
-        System.out.println("Please register, what is your name?");
-
+    public void selectStudent() {
+        DisplayAscii.clearConsole();
+        System.out.println("If you are already listed below, enter your name to" +
+                "\ncontinue, else type \"new\" to create and register a new student\n");
+        listStudents();
+        System.out.println();
         String name = GetUserInput.getUserString();
+        if (name.equals("new")) {
+            System.out.println("Please enter your name to register yourself as a new student");
+            name = GetUserInput.getUserString();
+            createStudent(name);
+        } else if (studentList.containsKey(name)) { // else if get pre-existent student
+            this.student = studentList.get(name);
+        } else {
+            System.out.println("Please enter a valid input");
+            selectStudent();
+        }
+    }
+    // create a new student and write to students.csv
+    public void createStudent(String name)  {
         this.student = new Student(name, false);
-        writeStudent(student);
+        writeStudentHelper(student);
     }
-
-    public void writeStudent(Student student) throws IOException {
+    // helper function that writes new student to csv
+    private void writeStudentHelper(Student student) {
         String csvFile = "data/students.csv";
-        BufferedWriter output = new BufferedWriter(new FileWriter(csvFile, true));
-        output.append(student.getName()+","+student.isInDungeon()+"\n");
-        output.close();
+        try {
+            BufferedWriter output = new BufferedWriter(new FileWriter(csvFile, true));
+            output.append(student.getName() + "," + student.isInDungeon() + "\n");
+            output.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-
-    // Getters / Setters
-    public void getStudents() {
+    // Read in former students from students.csv into studentList private variable
+    private void getStudentsFromCSV() {
 
         try {
             Files.lines(Path.of("data", "students.csv")).forEach(line -> {
                 String[] studentArray = line.split(",");
                 Student student = new Student(studentArray[0],Boolean.valueOf(studentArray[1]));
-                studentList.add(student);
+                studentList.put(student.getName(),student);
             });
         } catch (IOException e) {
             System.out.println("Error retrieving students from students.csv");
         }
     }
+    public void menuScreenOptionOne() {
+        summonMonsterTutor();
+        monsterTutor.tutor();
+    }
+    public void menuScreenOptionTwo() {
+        listStudents();
+        System.out.println("hit enter to return to the main screen");
+        GetUserInput.getUserString();
+    }
+    public int displayStartMenu() {
+        DisplayAscii.clearConsole();
 
-    public void getStudent() throws IOException {
-        System.out.println("What is your name?");
-        String name = GetUserInput.getUserString();
+        DisplayAscii.displayMonsterAcademy();
+        String option1 = " ".repeat(11) + "+   1 - Enter TutorMonster Academy";
+        String option2 = " ".repeat(11) + "+   2 - List Current Students";
+        String option3 = " ".repeat(11) + "+   3 - Exit";
+        int padding = option1.length()+5;
 
-        // name.equals(" ")
-
-        List<Student> students = studentList.stream()
-                    .filter(s -> s.getName().equals(name))
-                    .collect(Collectors.toList());
-
-        if (students.isEmpty()) {
-            createStudent();
-        } else {
-            this.student = students.get(0);
-        }
-
+        String userWelcome = "Welcome " + student.getName();
+        int userWelcomePadding = 32-userWelcome.length()/2;
+        System.out.println("\n\n\n\n");
+        System.out.println(" ".repeat(userWelcomePadding) + userWelcome);
+        DisplayAscii.topBorder(padding+1,DisplayAscii.LEFT_INDENT);
+        System.out.println(option1 + " ".repeat(padding-option1.length()+10)+"+");
+        System.out.println(option2 + " ".repeat(padding-option2.length()+10)+"+");
+        System.out.println(option3 + " ".repeat(padding-option3.length()+10)+"+");
+        DisplayAscii.bottomBorder(padding+1,DisplayAscii.LEFT_INDENT);
+        int result = GetUserInput.getUserInteger();
+        return result;
     }
 
-    public MonsterTutor getMonsterTutor() {
-        return monsterTutor;
-    }
 }

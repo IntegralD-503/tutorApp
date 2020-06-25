@@ -46,4 +46,11 @@ public class Student {
     public int getChances() {
         return chances;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
